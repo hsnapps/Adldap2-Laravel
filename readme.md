@@ -1,7 +1,3 @@
-<h3 align="center">
-<strong>:warning: Project No Longer Maintained :warning:</strong>
-</h3>
-
 <p align="center">
 Consider migrating to its direct replacement
 <a href="https://github.com/DirectoryTree/LdapRecord-Laravel" target="_blank" title="LdapRecord GitHub Repository">LdapRecord-Laravel</a>.
@@ -38,12 +34,12 @@ Consider migrating to its direct replacement
 </h4>
 
 - **Authenticate LDAP users into your application.** Using the built-in authentication driver, easily allow
-LDAP users to log into your application and control which users can login via [Scopes](https://adldap2.github.io/Adldap2-Laravel/#/auth/setup?id=scopes) and [Rules](https://adldap2.github.io/Adldap2-Laravel/#/auth/setup?id=rules).
+  LDAP users to log into your application and control which users can login via [Scopes](https://adldap2.github.io/Adldap2-Laravel/#/auth/setup?id=scopes) and [Rules](https://adldap2.github.io/Adldap2-Laravel/#/auth/setup?id=rules).
 
 - **Easily Import & Synchronize LDAP users.** Users can be imported into your database upon first login,
-or you can import your entire directory via a simple [command](https://adldap2.github.io/Adldap2-Laravel/#/auth/importing): `php artisan adldap:import`.
+  or you can import your entire directory via a simple [command](https://adldap2.github.io/Adldap2-Laravel/#/auth/importing): `php artisan adldap:import`.
 
 - **Eloquent like Query Builder.** Search for LDAP records with a [fluent and easy to use interface](https://adldap2.github.io/Adldap2/#/searching) you're used to. You'll feel right at home.
 
 - **Active Record LDAP Models.** LDAP records are returned as [individual models](https://adldap2.github.io/Adldap2/#/models/model). Easily create
-and update models then persist them to your LDAP server with a simple `save()`.
+  and update models then persist them to your LDAP server with a simple `save()`.
